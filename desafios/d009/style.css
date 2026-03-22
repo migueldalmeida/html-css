@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(31, 30, 30);
+}
+
+h1 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.titulo {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+.pintorolacu {
+    text-align: center;
+}
+
+.linkgay {
+    display: block;
+    margin: auto;
+    width: fit-content;
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.linkcen {
+    display: block;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.thumbs{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    gap: 10px;
+
+    justify-content: center;
+
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.thumbs img{
+    width: 500px;
+    display: block;
+}
+
+
+
+
+
+
+
