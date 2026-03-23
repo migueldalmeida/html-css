@@ -125,15 +125,6 @@ aside {
 
 }
 
-aside h3 {
-    background-color: #38be74;
-    color: white;
-    padding: 10px;
-    margin: 0px;
-    border-radius: 7px 7px 0px 0px;
-    
-}
-
 .container {
     max-width: 1000px;
     margin: auto;
@@ -144,6 +135,17 @@ aside h3 {
     width: 100%;
     height: 500px;
 }
+
+
+aside h3 {
+    background-color: #38be74;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    border-radius: 7px 7px 0px 0px;
+    
+}
+
 
 .more {
     background-color: #96e6b9;
