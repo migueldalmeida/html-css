@@ -80,7 +80,8 @@ section.imagem {
 section.imagem p {
     display: inline-block;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.219);
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 17px;
     color: white;
     text-shadow: 1px 1px 0px black;
 }
