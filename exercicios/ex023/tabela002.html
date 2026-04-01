@@ -24,6 +24,17 @@
             color: white;
         }
 
+        caption {
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
+        tbody tr:nth-child(2n){
+            background-color: lightgray;
+        }
+
     </style>
 </head>
 <body>
@@ -40,10 +51,11 @@
     -->
                 
     <table>
+        <caption>Populacao das Unidades Federativas</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>Populacao</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">Populacao</th>
             </tr>
         </thead>
         <tbody>
@@ -63,7 +75,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>84.352.783</td>
             </tr>
         </tfoot>
