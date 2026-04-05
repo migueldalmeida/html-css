@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio de Tabelas</title>
+    <style>
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption {
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th,td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.cnome {
+            background-color: greenyellow;
+        }
+
+        col.csexo, col.cidade {
+            background-color: yellow;
+        }
+
+        /*OU ESSE DE CIMA, OU USAR O SPAN*/
+        /*OU TAMBEM POSSO SIMPLESMENTE COLOCAR UM CLASS EM CADA COL, TIPO <col class=".amarelo"> e e vir no css e por .amarelo background color=yellow*/
+
+        col.cgrupo {
+            background-color: yellow;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Exercicio de tabela</h1>
+<table>
+    <colgroup>
+        <col class="cnome">
+        <col class="cgrupo" span="2">
+        <col class="cprof">
+    </colgroup>
+    <caption>Cadastro</caption>
+    <tr>
+        <th scope="col">Nome</th>
+        <th scope="col">Sexo</th>
+        <th scope="col">Idade</th>
+        <th scope="col">Profissao</th>
+    </tr>
+    <tbody>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>João Silva</td>
+            <td>M</td>
+            <td>30</td>
+            <td>Engenheiro</td>
+        </tr>
+        <tr>
+            <td>Carla Souza</td>
+            <td>F</td>
+            <td>22</td>
+            <td>Estudante</td>
+        </tr>
+        <tr>
+            <td>Pedro Henrique</td>
+            <td>M</td>
+            <td>28</td>
+            <td>Programador</td>
+        </tr>
+        <tr>
+            <td>Mariana Alves</td>
+            <td>F</td>
+            <td>35</td>
+            <td>Advogada</td>
+        </tr>
+        <tr>
+            <td>Lucas Pereira</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Designer</td>
+        </tr>
+    </tbody>
+</table>
+</body>
+</html>
