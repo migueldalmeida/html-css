@@ -1,0 +1,14 @@
+[
+    {
+        "titulo": "Estudar Python Avan\u00e7ado",
+        "prioridade": "Alta",
+        "concluida": false,
+        "data_criacao": "2026-04-05 02:12:08"
+    },
+    {
+        "titulo": "Ir \u00e0 academia",
+        "prioridade": "M\u00e9dia",
+        "concluida": false,
+        "data_criacao": "2026-04-05 02:12:08"
+    }
+]
